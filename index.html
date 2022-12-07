@@ -39,6 +39,7 @@
                 align-content: center;
                 justify-items: end;
             }
+           
             .title{
                 color: rgb(0, 0, 0);
             }
@@ -60,6 +61,20 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+            }
+            @media (max-width:375px) {
+                .title-div{
+                    margin-left: 169px !important;
+                    margin-right: 3px;
+                    font-size: 7px;
+                    margin-top: 252px;
+                    text-align: justify;
+                }
+                .title-nombres{
+                    font-size: 25px;
+                    margin-right: 10px;
+                    margin-top: 60px;
+                }
             }
         </style>
         <!--Texto decorado con flores
@@ -367,10 +382,16 @@
 </div>
     
     <style>
+        
         .content-body{
             box-shadow: 7px 5px 5px #000000ad;
             width: 70%;
             margin-bottom: 1%;
+        }
+        @media (max-width:375px) {
+            .content-body{
+                width: 93%;
+            }
         }
         .image-boda{
             height: 368px;
@@ -408,6 +429,7 @@
             background-image: url('./anillo.jpg');
             background-size: cover;
         }
+        
         .text-targeta{
             color: #fff;
             display: flex;
