@@ -41,7 +41,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 1% 0%;
-    background-image: url('./anillo.jpg');
+    background-image: url('../image/anillo.jpg');
     background-size: cover;
 }
 
@@ -55,4 +55,11 @@ p{
     text-align: justify;
 }
 @media (max-width:375px) {
+    .image-boda {
+        height: 200px;
+        width: 200px;
+    }
+    .text-targeta {
+        font-size: 14px;
+    }
     }

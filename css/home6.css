@@ -17,4 +17,11 @@
     margin: 0 12%;
 }
 @media (max-width:375px) {
+    .body-home-6 {
+        height: 212px;
+        font-size: 14px;
+    }
+    .img-caja-regalo6{
+        width: 56px;
+    }
 }

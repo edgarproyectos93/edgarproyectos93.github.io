@@ -20,4 +20,15 @@ flex-direction: column;
 align-items: center;
 }
 @media (max-width:375px) {
+    .body-home-5{
+        background-color: #e1e1e1;
+        height: 223px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-body-home5 p{
+        font-size: 14px;
+        margin: 10px 0px;
+    }
 }

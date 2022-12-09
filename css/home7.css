@@ -30,4 +30,13 @@
     color: #000;
 }
 @media (max-width:375px) {
+    .img-whatsapp7{
+        width: 60px;
+    }
+    .body-home-7{
+        
+        height: 324px;
+        font-size: 14px;
+    }
+    
             }
