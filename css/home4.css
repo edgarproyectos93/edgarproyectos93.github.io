@@ -1,0 +1,34 @@
+.body-home-4{
+    background-color: #e1e1e1;
+    height: 130px;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.date-text{
+    display: flex;
+    justify-content: center;
+}
+.mes{
+    margin-right: 7px;
+border-top: solid 1px;
+width: 73px;
+text-align: center;
+border-bottom: solid 1px;
+}
+.dia{
+    margin: 0px;
+    width: 73px;
+    text-align: center;
+    font-size: 49px;
+}
+.year{
+    margin-right: 7px;
+border-top: solid 1px;
+width: 73px;
+text-align: center;
+border-bottom: solid 1px;
+}
+@media (max-width:375px) {
+}

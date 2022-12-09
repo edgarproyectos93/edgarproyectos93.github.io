@@ -1,0 +1,61 @@
+.body-home-1{
+    background-color: black;
+    height: 510px;
+    justify-content: space-between;
+    margin-top: 1%;
+    padding: 2% 0%;
+    background-image: url(../image/rosashome.jpg);
+    background-size: cover;
+    display: grid;
+    align-content: center;
+    justify-items: end;
+}
+
+.title{
+    color: rgb(0, 0, 0);
+}
+.title-div{
+    margin-left: 254px !important;
+    margin-right: 10px;
+    font-size: 12px;
+    margin-top: 59px;
+}
+@font-face {
+    font-family: 'symphony';
+    src: url(Symphony.ttf);
+}
+.title-nombres{
+    font-family:'Symphony';
+    font-size: 50px;
+    margin-right: 100px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width:375px) {
+    .body-home-1{
+        background-color: black;
+        height: 250px;
+        justify-content: space-between;
+        margin-top: 1%;
+        padding: 2% 0%;
+        background-image: url(../image/rosashome.jpg);
+        background-size: cover;
+        display: grid;
+        align-content: center;
+        justify-items: end;
+    }
+    .title-div{
+        margin-left: 120px !important;
+        margin-right: 5px;
+        font-size: 6px;
+        margin-top: 60px;
+        text-align: justify;
+    }
+    .title-nombres{
+        font-size: 21px;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+}

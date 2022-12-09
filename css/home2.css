@@ -1,0 +1,30 @@
+.body-home-2{
+    background-color: black;
+    height: 510px;
+    padding: 2% 0%;
+    background-image: url(../image/monoyanillo.jpg);
+    background-size: cover;
+    display: grid;
+    justify-content: end;
+}
+.text-body-home2{
+    width: 285px;
+    margin-right: 62px;
+}
+
+@media (max-width:375px) {
+    .body-home-2{
+        background-color: black;
+        height: 219px;
+        padding: 2% 0%;
+        background-image: url(../image/monoyanillo.jpg);
+        background-size: cover;
+        display: grid;
+        justify-content: end;
+    }
+    .text-body-home2{
+        width: 142px;
+        margin-right: 17px;
+        font-size: 8px;
+    }
+}

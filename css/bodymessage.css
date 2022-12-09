@@ -1,0 +1,58 @@
+.content-body{
+    box-shadow: 7px 5px 5px #000000ad;
+    width: 70%;
+    margin-bottom: 1%;
+}
+@media (max-width:375px) {
+    .content-body{
+        width: 93%;
+    }
+}
+.image-boda{
+    height: 368px;
+    width: 368px;
+    pointer-events: initial;
+    border-radius: 50% !important;
+}
+
+body{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #9999994a;
+}
+
+.body-message{
+    background-color: black;
+    height:  70%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0%;
+    background-image: url('./anillo.jpg');
+    background-size: cover;
+}
+
+.text-targeta{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    text-align: justify;
+}
+@media (max-width:375px) {
+    }
