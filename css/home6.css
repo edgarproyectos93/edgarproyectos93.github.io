@@ -16,7 +16,7 @@
 .text-home6{
     margin: 0 12%;
 }
-@media (max-width:375px) {
+@media (max-width:412px) {
     .body-home-6 {
         height: 212px;
         font-size: 14px;

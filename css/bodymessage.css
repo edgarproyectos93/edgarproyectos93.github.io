@@ -54,7 +54,7 @@ body{
 p{
     text-align: justify;
 }
-@media (max-width:375px) {
+@media (max-width:412px) {
     .image-boda {
         height: 200px;
         width: 200px;

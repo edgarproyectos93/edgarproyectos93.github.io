@@ -12,7 +12,7 @@
     margin-right: 62px;
 }
 
-@media (max-width:375px) {
+@media (max-width:412px) {
     .body-home-2{
         background-color: black;
         height: 219px;

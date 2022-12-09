@@ -19,7 +19,7 @@ color: #000;
 flex-direction: column;
 align-items: center;
 }
-@media (max-width:375px) {
+@media (max-width:412px) {
     .body-home-5{
         background-color: #e1e1e1;
         height: 223px;
