@@ -1,15 +1,14 @@
-
-             .body-home-8{
-                background-color: #e1e1e1;
-    height: 157px;
-    padding: 2% 0%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-            }
-            .text-body-home8{
-                display: flex;
-    flex-direction: column;
-    align-items: center;
-            }
+.body-home-8{
+        background-color: #e1e1e1;
+        height: 157px;
+        padding: 2% 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+.text-body-home8{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}

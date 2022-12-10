@@ -3,18 +3,12 @@
     width: 70%;
     margin-bottom: 1%;
 }
-@media (max-width:375px) {
-    .content-body{
-        width: 93%;
-    }
-}
 .image-boda{
     height: 368px;
     width: 368px;
     pointer-events: initial;
     border-radius: 50% !important;
 }
-
 body{
     margin: 0%;
     width: 100%;
@@ -31,7 +25,6 @@ body{
     align-items: center;
     background-color: #9999994a;
 }
-
 .body-message{
     background-color: black;
     height:  70%;
@@ -44,7 +37,6 @@ body{
     background-image: url('../image/anillo.jpg');
     background-size: cover;
 }
-
 .text-targeta{
     color: #fff;
     display: flex;
@@ -62,4 +54,7 @@ p{
     .text-targeta {
         font-size: 14px;
     }
+    .content-body{
+        width: 93%;
     }
+}
