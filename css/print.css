@@ -1,0 +1,368 @@
+
+  .content-body{
+    box-shadow: 7px 5px 5px #000000ad;
+    width: 70%;
+    margin-bottom: 1%;
+}
+.image-boda{
+    height: 368px;
+    width: 368px;
+    pointer-events: initial;
+    border-radius: 50% !important;
+}
+.body{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #9999994a;
+}
+.body-message{
+    background-color: black;
+    height:  70%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0%;
+    background-image: url('https://edgarproyectos93.github.io/image/anillo.jpg');
+    background-size: cover;
+}
+.text-targeta{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    text-align: justify;
+}
+@media (max-width:412px) {
+    .image-boda {
+        height: 200px;
+        width: 200px;
+    }
+    .text-targeta {
+        font-size: 14px;
+    }
+    .content-body{
+        width: 93%;
+    }
+}
+.body-home-1{
+    background-color: black;
+    height: 510px;
+    justify-content: space-between;
+    margin-top: 1%;
+    padding: 2% 0%;
+    background-image: url(https://edgarproyectos93.github.io/image/rosashome.jpg);
+    background-size: cover;
+    display: grid;
+    align-content: center;
+    justify-items: end;
+}
+
+.title{
+    color: rgb(0, 0, 0);
+}
+.title-div{
+    margin-left: 254px !important;
+    margin-right: 10px;
+    font-size: 12px;
+    margin-top: 59px;
+}
+@font-face {
+    font-family: 'symphony';
+    src: url(Symphony.ttf);
+}
+.title-nombres{
+    font-family:'Symphony';
+    font-size: 50px;
+    margin-right: 100px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width:412px) {
+    .body-home-1{
+        background-color: black;
+        height: 250px;
+        justify-content: space-between;
+        margin-top: 1%;
+        padding: 2% 0%;
+        background-image: url(https://edgarproyectos93.github.io/image/rosashome.jpg);
+        background-size: cover;
+        display: grid;
+        align-content: center;
+        justify-items: end;
+    }
+    .title-div{
+        margin-left: 120px !important;
+        margin-right: 5px;
+        font-size: 6px;
+        margin-top: 60px;
+        text-align: justify;
+    }
+    .title-nombres{
+        font-size: 21px;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+}
+.body-home-2{
+    background-color: black;
+    height: 510px;
+    padding: 2% 0%;
+    background-image: url(https://edgarproyectos93.github.io/image/monoyanillo.jpg);
+    background-size: cover;
+    display: grid;
+    justify-content: end;
+}
+.text-body-home2{
+    width: 285px;
+    margin-right: 62px;
+}
+
+@media (max-width:412px) {
+    .body-home-2{
+        background-color: black;
+        height: 219px;
+        padding: 2% 0%;
+        background-image: url(https://edgarproyectos93.github.io/image/monoyanillo.jpg);
+        background-size: cover;
+        display: grid;
+        justify-content: end;
+    }
+    .text-body-home2{
+        width: 142px;
+        margin-right: 17px;
+        font-size: 8px;
+    }
+}
+
+.body-home-3{
+    background-color: #e1e1e1;
+    height: 230px;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.text-body-home3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.nombres-home3{
+    font-family:sans-serif;
+    font-size: 14px;
+    margin: 3px;
+}
+.title-home3{
+    font-size: 22px;
+}
+
+@media (max-width:412px) {
+    .body-home-3{
+        background-color: #e1e1e1;
+        height: 139px;
+        padding: 2% 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .text-body-home3 p{
+        text-align: center;
+    }
+    
+    .text-body-home3{
+        font-size: 13px;
+    }
+    .nombres-home3{
+        font-size: 9px;
+        margin: 3px;
+    }
+    .title-home3{
+        font-size: 17px;
+    }
+}
+.body-home-4{
+    background-color: #e1e1e1;
+    height: 130px;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.date-text{
+    display: flex;
+    justify-content: center;
+}
+
+.text-body-home4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.mes{
+    margin-right: 7px;
+    border-top: solid 1px;
+    width: 73px;
+    text-align: center;
+    border-bottom: solid 1px;
+    padding-top: 8px;
+}
+.dia{
+    margin: 0px;
+    width: 73px;
+    text-align: center;
+    font-size: 60px;
+    color: #adaf2f;
+}
+.year{
+    margin-right: 7px;
+    border-top: solid 1px;
+    width: 73px;
+    text-align: center;
+    border-bottom: solid 1px;
+    padding-top: 8px;
+}
+@media (max-width:412px) {
+    .text-body-home4 p{
+        text-align: center;
+    }
+    .text-body-home4{
+        font-size: 13px;
+    }
+}
+.btn-home5{
+    padding: 8px 15px;
+    box-shadow: 3px 3px #00000096;
+    text-decoration: none;
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #76001b;
+}
+.body-home-5{
+    background-color: #e1e1e1;
+    height: 273px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-body-home5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width:412px) {
+    .body-home-5{
+        background-color: #e1e1e1;
+        height: 223px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-body-home5 p{
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+}
+.body-home-6{
+    background-color: #e1e1e1;
+    height: 251px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img-caja-regalo6{
+    width: 80px;
+}
+.text-body-home6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-home6{
+    margin: 0 12%;
+}
+@media (max-width:412px) {
+    .body-home-6 {
+        height: 212px;
+        font-size: 14px;
+    }
+    .img-caja-regalo6{
+        width: 56px;
+    }
+}
+.div-home7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body-home-7{
+    background-color: #e1e1e1;
+    height: 351px;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-body-home7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-whatsapp7{
+    width: 80px;
+}
+.btn-home7{
+    padding: 8px 15px;
+    box-shadow: 3px 3px #00000096;
+    text-decoration: none;
+    border: 1px solid #000;
+    background-color: #44c554;
+    color: #fff;
+}
+@media (max-width:412px) {
+    .img-whatsapp7{
+        width: 60px;
+    }
+    .body-home-7{
+        height: 324px;
+        font-size: 14px;
+    }
+}
+.body-home-8{
+        background-color: #e1e1e1;
+        height: 157px;
+        padding: 2% 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+.text-body-home8{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}

@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="/css/bodymessage.css" media="screen" />
   </head>
   <body>
-    <div class="body">
+    <div class="body" id="printThis">
       <div class="content-body">
         <div class="body-home-1">
           <div class="title-div">
@@ -105,5 +105,35 @@
         </div>
       </div>
     </div>
+    <div style="display:none;">
+      <button onclick="getPrint()">Imprimir</button>
+    </div>
+    
+    <script>
+      function getPrint(){
+        var mywindow = window.open('', 'PRINT', 'height=400,width=600');
+        var elem = document.getElementById("printThis");
+        var domClone = elem.cloneNode(true);
+        mywindow.document.write("<div id='oterElemt'></div>")
+        console.log(domClone)
+        var element = mywindow.document.getElementById("oterElemt")
+
+       // var styleBill = window.getElementById("");
+        element.append(<link rel="stylesheet" type="text/css" href="/css/print.css" media="screen" />);
+
+        //var styleBillClone = styleBill.cloneNode(true)
+        //element.append(styleBillClone);
+        element.append(domClone);
+        console.log(element)
+        mywindow.document.close(); // necesario para IE >= 10
+        
+        mywindow.focus(); // necesario para IE >= 10
+        mywindow.print();
+        
+        setTimeout(() => {
+         // mywindow.close();
+        }, "600")
+      }
+    </script>
   </body>
 </html>
